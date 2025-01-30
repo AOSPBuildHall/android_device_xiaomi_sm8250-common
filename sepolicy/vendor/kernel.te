@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # For diag over socket
 userdebug_or_eng(`
   allow kernel self:qipcrtr_socket create;
 ')
 # Ignore the socket if it fails to create
 dontaudit kernel self:qipcrtr_socket create;
+=======
+allow kernel self:capability kill;
+>>>>>>> 40c0d18 (sm8250-common: Resolve sepolicy denials)

@@ -1,1 +1,6 @@
+<<<<<<< HEAD
 allow system_app vendor_sysfs_graphics:file { getattr open read };
+=======
+allow system_app zygote:unix_stream_socket getopt;
+allow system_app user_profile_data_file:dir read;
+>>>>>>> 40c0d18 (sm8250-common: Resolve sepolicy denials)
