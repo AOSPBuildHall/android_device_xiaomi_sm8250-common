@@ -384,7 +384,6 @@ $(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
     hostapd \
-    libwpa_client \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
     WifiResCommon \
