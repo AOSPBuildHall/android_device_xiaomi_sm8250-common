@@ -3,19 +3,25 @@ vendor.audio.offload.                                                           
 vendor.audio.soundtrigger.debug.urser_id                                                            u:object_r:vendor_audio_prop:s0
 vendor.audio_hal.in_period_size                                                                     u:object_r:vendor_audio_prop:s0
 
+# Aware
+ro.vendor.aware_available          u:object_r:vendor_aware_available_prop:s0
+
 # Bluetooth
 persist.vendor.bt.                                                                                  u:object_r:vendor_bluetooth_prop:s0
 persist.vendor.btstack.                                                                             u:object_r:vendor_bluetooth_prop:s0
 
 # Camera
+audio.camerasound.                                                                                  u:object_r:vendor_default_prop:s0
 vendor.camera.                                                                                      u:object_r:vendor_camera_prop:s0
 persist.camera.                                                                                     u:object_r:vendor_camera_prop:s0
 persist.vendor.EnableP3ColorSpace                                                                   u:object_r:vendor_camera_prop:s0
 persist.vendor.camera                                                                               u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.res.fmq.size                                                                       u:object_r:vendor_camera_prop:s0
+ro.vendor.camera.req.fmq.size                                                                       u:object_r:vendor_camera_prop:s0
 ro.vendor.camera.                                                                                   u:object_r:vendor_camera_prop:s0
 vendor.camera.boot_complete                                                                         u:object_r:vendor_camera_prop:s0
 vendor.camera.sensor.                                                                               u:object_r:vendor_camera_prop:s0
+vendor.panel.display                                                                                u:object_r:vendor_camera_prop:s0
 
 # Fingerprint
 vendor.gf.debug.                                                                                    u:object_r:vendor_fingerprint_prop:s0
