@@ -28,6 +28,11 @@ else
 AB_OTA_UPDATER := false
 endif
 
+# ART
+WITH_DEXPREOPT := true
+DEX_PREOPT_DEFAULT := generate-vdex-and-image
+WITH_DEXPREOPT_DEBUG_INFO := false
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
